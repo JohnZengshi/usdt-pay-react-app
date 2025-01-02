@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/JohnZengshi/usdt-pay-react-app/compare/v0.0.1...v0.0.2) (2025-01-02)
+
+
+### Features
+
+* 更新样式和emotion库，调整字体大小并修复 px 转 rem 的处理逻辑，添加 VSCode 扩展推荐 ([bf48ba5](https://github.com/JohnZengshi/usdt-pay-react-app/commit/bf48ba582fc8c00615e1ed7773c898f91877630d))
+
 ### 0.0.1 (2025-01-02)
 
 
