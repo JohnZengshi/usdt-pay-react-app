@@ -21,9 +21,10 @@ export const {
   stylisPlugins: [
     // stylis plugins
     (e) => {
-      if (typeof e.value == "string")
-        e.value = e.value.replace(/(\d+(\.\d+)?)px/g, (_, p1) => px2rem(p1)); // replace px with rem
-      // console.log(e);
+      if (e.type == "decl") {
+        e.return = e.value.replace(/(\d+(\.\d+)?)px/g, (_, p1) => px2rem(p1)); // replace px with rem
+        console.log(e);
+      }
     },
   ],
 });

@@ -16,9 +16,9 @@ function App() {
               className={clsx(
                 "text-black/90",
                 css`
-                  font-size: 14px;
                   > span {
-                    line-height: 1;
+                    font-size: 14px;
+                    line-height: 14px;
                   }
                 `
               )}
