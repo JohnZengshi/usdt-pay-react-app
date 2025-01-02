@@ -10,14 +10,14 @@ import { PropsWithChildren } from "react";
 const queryClient = new QueryClient();
 
 // 1. Get projectId from https://cloud.reown.com
-const projectId = "YOUR_PROJECT_ID";
+const projectId = "49b1a650fed65e3cfec27994da2fba35";
 
 // 2. Create a metadata object - optional
 const metadata = {
   name: "AppKit",
   description: "AppKit Example",
-  url: "https://example.com", // origin must match your domain & subdomain
-  icons: ["https://avatars.githubusercontent.com/u/179229932"],
+  url: "", // origin must match your domain & subdomain
+  icons: [""],
 };
 
 // 3. Set the networks
@@ -38,6 +38,7 @@ createAppKit({
   metadata,
   features: {
     analytics: true, // Optional - defaults to your Cloud configuration
+    connectMethodsOrder: ["wallet"],
   },
 });
 
